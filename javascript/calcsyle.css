@@ -1,0 +1,28 @@
+.calci{
+   width: 500px;
+   height: 600px;
+   background: gray; 
+   margin-left: 500px;
+}
+.screen{
+    width: 311px;
+    height: 44px;
+    border-radius: 5px;
+    margin-left: 94px;
+    margin-top: 40px;
+    pointer-events: none;
+}
+.rows{
+    width: 107px;
+    height: 63px;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 6px;
+    font-style: Helvetica, Arial, sans-serif;
+    background: khaki;
+    color: rgb(240, 40, 40);
+}
+.row{
+    padding-top: 12px;
+    padding-left: 17px;
+}
