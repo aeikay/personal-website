@@ -1,11 +1,12 @@
 .para{
     position: absolute;
     text-align: center;
-    top: 50%;
+    top: 30%;
     width: 100%;
-    font-family: cursive;
-    font-size: 200; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem; 
     font-weight: 600;
+    color: white;
 }
 h1{
    text-align: center;
@@ -20,7 +21,7 @@ h1{
     border-radius: 5;
 }
 .nav-item a:hover{
- background-color: grey;
+ background-color:teal;
 }
 
 nav.navbar{
