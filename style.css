@@ -38,4 +38,13 @@ nav.navbar{
 address{
     margin-left: 55px;
 }
+#footer{
+    position: absolute;
+    top: 730%;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    z-index: 100;
+}
+
 
