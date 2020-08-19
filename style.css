@@ -1,12 +1,12 @@
 .para{
     position: absolute;
     text-align: center;
-    top: 30%;
+    top: 20%;
     width: 100%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 4rem; 
+    font-family:;
+    font-size: 2rem; 
     font-weight: 600;
-    color: white;
+    color:black;
 }
 h1{
    text-align: center;
@@ -14,8 +14,54 @@ h1{
    font-weight: bold;
 
 }
-.dolly{
-    text-align: right;
+#about{
+    text-align: center;
+}
+.rounded-circle{
+    max-width:50%;
+    height: auto;
+}
+#whatcanido{
+    color:black;
+    padding-left: 15px;
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-top: 80px;
+}
+#descriptionwhatcanido{
+    color: teal;
+    font-size: 20px;
+    padding-top: 50px;
+    font-size: x-large;
+}
+#whatiliketodo{
+    color:black;
+    padding-left: 15px;
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+#iwouldloveto{
+    color:teal;
+    font-size:20px;
+    padding-top: 50px;
+}
+#icanhelp{
+    color: black;
+    font-size: 51px;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: bolder;
+}
+#icanhelpdesc{
+    color: teal;
+    font-size: 20px;
+    padding-top: 32px;
+    text-align: center;
+}
+#buttonmessage{
+    padding: 0.75rem;
+    font-weight: bolder;
 }
 .nav-item a{
     border-radius: 5;
@@ -40,7 +86,7 @@ address{
 }
 #footer{
     position: absolute;
-    top: 730%;
+    top: 300%;
     width: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
