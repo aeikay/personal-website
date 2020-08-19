@@ -3,7 +3,7 @@
     text-align: center;
     top: 50%;
     width: 100%;
-    font-family:;
+    font-family:'Boogaloo';
     font-size: 2rem; 
     font-weight: 600;
     color:black;
@@ -38,9 +38,19 @@ h1{
 #whoami{
     margin-bottom: 3.5rem;
 }
+#worker{
+    margin-top: 0.5rem;
+    border-radius: 2rem;
+    margin-left: 3.5rem;
+}
+#collab{
+    margin-top: 2.7rem;
+    border-radius: 2rem;
+    margin-left: 3.5rem;
+}
 #whatcanido{
     color:black;
-    padding-left: 15px;
+    padding-left: 4rem;
     font-size: 3rem;
     font-weight: bolder;
     padding-top: 80px;
@@ -53,7 +63,7 @@ h1{
 }
 #whatiliketodo{
     color:black;
-    padding-left: 15px;
+    padding-left:4rem;
     font-size: 3rem;
     font-weight: bolder;
     padding-top: 50px;
@@ -62,6 +72,7 @@ h1{
     color:teal;
     font-size:20px;
     padding-top: 50px;
+    padding-left: 4rem;
 }
 #icanhelp{
     color: black;
@@ -95,19 +106,66 @@ nav.navbar{
  nav.navbar.transparent {
     background-color:rgb(8, 8, 8) !important;
 }
-.material-icons{
-    font-size: 20px;
+
+#footerimage{
+    background-image: url("images/footer.jpg");
+    background-color: #cccccc;
+    height:70rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+.footerhead{
+    font-size: 3rem;
+    padding-top: 7rem;
+    padding-left: 65rem;
+    color:white;
+    font-weight:bolder ;
 }
-address{
-    margin-left: 55px;
-}
-#footer{
-    position: absolute;
-    top: 300%;
-    width: 100%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.footerdesc{
+    font-size: 1.5rem;
+    padding-top: 10rem;
+    padding-left: 65rem;
     color: white;
-    z-index: 100;
+    font-weight: bold;
+}
+#footerdescborder{
+    border:2px turquoise;
+    border-radius: 1.1rem;
+}
+.github{
+    color:aliceblue;
+    padding-left: .5rem;
+    
+}
+.footerdescfb{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-left: 65rem;
+    color: white;
 }
 
+#footer{
+    font-size: 1.4rem;
+    color: white;
+    text-align: center;
+    font-family: 'Bangers';
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00e61f, 0 0 40px #2ee600, 0 0 50px #2ee600, 0 0 60px #00e673, 0 0 70px #13e600;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
 
